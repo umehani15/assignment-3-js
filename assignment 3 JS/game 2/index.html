@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friend Checker Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: darkcyan;
+        }
+
+        input {
+            margin: 10px;
+            padding: 10px;
+            font-size: 16px;
+            background-color: aqua;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: darkgray;
+        }
+
+        #result {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Friend Checker Game</h1>
+    <input type="text" id="name1" placeholder="Enter first name">
+    <input type="text" id="name2" placeholder="Enter second name">
+    <button onclick="checkFriendship()">Check Friendship</button>
+    <div id="result"></div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

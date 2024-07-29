@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluating Number Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: cadetblue;
+        }
+
+        input {
+            margin: 10px;
+            padding: 10px;
+            font-size: 16px;
+            background-color: rgb(151, 233, 233);
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: burlywood;
+
+        }
+
+        #result {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Evaluating Number Game</h1>
+    <div id="problem"></div>
+    <input type="number" id="answer" placeholder="Enter your answer">
+    <button onclick="checkAnswer()">Check Answer</button>
+    <div id="result"></div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
